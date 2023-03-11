@@ -1,2 +1,4 @@
 #!/bin/bash
-find ./help -type f -user guillaume -exec chown betty {} +
+FILE="hello"
+USER="betty"
+OWNER=$(stat -c '%U' "$FILE")
