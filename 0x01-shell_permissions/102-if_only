@@ -1,4 +1,2 @@
 #!/bin/bash
-FILE="hello"
-USER="betty"
-OWNER=$(stat -c '%U' "$FILE")
+FILE="hello" USER="betty" OWNER=$(stat -c '%U' "$FILE")
