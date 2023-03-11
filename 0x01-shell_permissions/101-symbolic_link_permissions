@@ -1,0 +1,2 @@
+#!/bin/basj
+chown -R vincent:staff ./*
