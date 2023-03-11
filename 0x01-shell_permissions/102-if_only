@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./help -type f -user guillaume -exec chown betty  +
+find ./help -type f -user guillaume -exec chown betty {} +
